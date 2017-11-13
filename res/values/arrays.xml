@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_page">
+        <item>@string/editClassrooms</item>
+        <item>@string/takeAttendance</item>
+        <item>@string/statistics</item>
+    </string-array>
+
+    <string-array name="edit_classroom">
+        <item>@string/edit</item>
+        <item>@string/deleteItem</item>
+    </string-array>
+
+    <string-array name="edit_student">
+        <item>@string/edit</item>
+        <item>@string/deleteItem</item>
+    </string-array>
+
+    <string-array name="edit_past_attendance">
+        <item>@string/deleteItem</item>
+    </string-array>
+</resources>

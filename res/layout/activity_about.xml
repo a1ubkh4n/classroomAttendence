@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    tools:context="com.a1ubkh4n.app.classroom.about">
+
+    <include
+        android:id="@+id/toolabout"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolabout"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/llin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_launchergg" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DIIT Att3endence Diary"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#260b58"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/version_16_98"
+                android:textAlignment="center"
+                android:textColor="#39316D"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/developed_by"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingTop="18dp"
+                android:text="@string/md_ayub_khan"
+                android:textAlignment="center"
+                android:textColor="#1e0d8f"
+                android:textSize="22sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/email_ayub1698_diit_info_n16th_batch"
+                android:textAlignment="center"
+                android:textColor="#1e0d8f"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/credit_goes_to_google_amp_github_amp_stackoverflow_community"
+                android:textAlignment="center"
+                android:textColor="#1e1943"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id" />
+</RelativeLayout>

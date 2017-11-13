@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background">
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectable">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/page_background"
+            android:layout_marginBottom="50dp">
+
+            <include layout="@layout/toolbar" />
+
+            <RelativeLayout
+                android:id="@+id/selectAllLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listview_item_small"
+                android:layout_below="@+id/toolbar"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/selectAll"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_size_small" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkBoxSelectAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/selectAllLayout"
+                android:clipToPadding="false"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:paddingTop="@dimen/margin_small" />
+
+            <TextView
+                android:id="@+id/emptyText"
+                style="@style/EmptyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/default_margin" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/drop_shadow_height"
+                android:layout_below="@+id/selectAllLayout"
+                android:alpha="0.5"
+                android:background="@drawable/drop_shadow" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/floating_action_button" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id" />
+</RelativeLayout>

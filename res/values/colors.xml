@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blackish">#2e692c</color>
+    <color name="darkGrey">#1e5e8e</color>
+    <color name="white">#fffdfd</color>
+    <color name="grey">#b6b6b6</color>
+    <color name="lightGrey">#dee2e2</color>
+    <color name="transparent">#000000</color>
+    <color name="tabColor">#024577</color>
+    <color name="dialogColour">@color/colourPrimaryDark</color>
+
+    <!-- material colours -->
+    <color name="materialDeepPurple">#024578</color>
+    <color name="materialLightGreen">#22b24c</color>
+
+    <!-- theme -->
+    <color name="colourAccent">@color/materialLightGreen</color>
+    <color name="colourPrimaryLight">#e1e1e1</color>
+    <color name="colourPrimary">@color/materialDeepPurple</color>
+    <color name="colourPrimaryDark">#094978</color>
+
+    <color name="page_background">@color/lightGrey</color>
+    <color name="primary_text">@color/blackish</color>
+    <color name="secondary_text">@color/darkGrey</color>
+
+</resources>

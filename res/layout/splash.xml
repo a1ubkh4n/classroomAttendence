@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#166097">
+
+    <!-- it is used for reveal effect -->
+    <View
+        android:id="@+id/backgroundLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colourPrimary"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/attendance"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="@string/fontFamilyLight"
+        android:textStyle="italic"
+        android:text="@string/smart"/>
+
+    <TextView
+        android:id="@+id/attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logo"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:fontFamily="@string/fontFamilyLight"
+        android:textStyle="italic"
+        android:text="@string/attendance"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:fontFamily="@string/fontFamilyLight"
+        android:textStyle="italic"
+        android:text="@string/diary"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_diit_logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

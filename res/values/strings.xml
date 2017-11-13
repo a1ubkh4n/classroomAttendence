@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">DIIT Att3ndance Diary</string>
+
+    <string name="editClassrooms">ADD/EDIT</string>
+    <string name="takeAttendance">ATTENDANCE</string>
+    <string name="statistics">STATS</string>
+    <string name="pastAttendances">Past Attendances</string>
+
+    <string name="enterName">Enter Class/Student Name</string>
+
+    <string name="smart">DIIT</string>
+    <string name="attendance">Att3ndance</string>
+    <string name="diary">Diary</string>
+
+    <string name="ok">OK</string>
+    <string name="delete">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="deleteAll">Delete All</string>
+    <string name="sureToDelete">&#160;will be deleted?</string>
+    <string name="saved">Saved</string>
+    <string name="allToDelete">Your all attendances of this class will be deleted.\nAre you sure about that?</string>
+    <string name="changeDateTime">Change Date and Time</string>
+    <string name="enterAlphanumeric">Only alphanumeric characters are acceptable</string>
+    <string name="importFromExcel">Import from xml format Excel file</string>
+    <string name="selectAll">Select All</string>
+
+    <string name="emptyMessageClassroom">Add classrooms, then students and swipe down to refresh&#8230;</string>
+    <string name="emptyMessageStudent">You can add one by one or import all from a xls format excek file</string>
+    <string name="emptyMessagePastAttendance">Take attendances to see the past attendances</string>
+    <string name="emptyMessageSave">You may change date and time if needed&#8230;</string>
+    <string name="emptyMessageStatistics">First take attendances, then press on item to see its graph</string>
+
+    <string name="couldNotInsertAttendance">Already taken today attendance! Please Come back tomorrow</string>
+    <string name="couldNotInsertClassroom">Same class name already exists!</string>
+
+    <string name="rateApp">Would you want to contact with me..?</string>
+
+    <string name="download">Download</string>
+    <string name="excelReaderNotFound">Excel reader is not found</string>
+    <string name="excelError">Excel file related error</string>
+    <string name="takeAttendanceBeforeExcel">Take attendance before saved to Excel.</string>
+    <string name="selectFile">Select a xls File to Upload</string>
+
+    <string name="grantPermission">Grant permission</string>
+
+    <string name="ongoing">The process is ongoing</string>
+    <string name="wait">Please wait for a moment</string>
+    <string name="extensionWarningXls">Please use xls format extension</string>
+    <string name="mountExternalStorage">Please insert external storage</string>
+
+    <string name="deleteItem">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="admob_id">ca-app-pub-1088707481241447/7985525218</string>
+    <string name="credit_goes_to_google_amp_github_amp_stackoverflow_community"><![CDATA[All credit go to Google, GitHub & StackOverFlow Community.]]></string>
+    <string name="md_ayub_khan"><a href="http://www.facebook.com/a1ubkh4n">Md.Ayub Khan</a></string>
+    <string name="email_ayub1698_diit_info_n16th_batch">Email: ayub1698@diit.info\n16th Batch.</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="version_16_98">Version 16.98</string>
+
+</resources>
